@@ -1,0 +1,16 @@
+{
+	"name": "sinksqldataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "races"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

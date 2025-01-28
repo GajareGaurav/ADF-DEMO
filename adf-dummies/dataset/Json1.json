@@ -1,0 +1,43 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "assets-data.json",
+				"folderPath": "input",
+				"container": "dummy-container"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"asset_id": {
+					"type": "string"
+				},
+				"asset_name": {
+					"type": "string"
+				},
+				"asset_type": {
+					"type": "string"
+				},
+				"purchase_date": {
+					"type": "string"
+				},
+				"last_update_date": {
+					"type": "string"
+				},
+				"status": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

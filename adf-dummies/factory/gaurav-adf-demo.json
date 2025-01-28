@@ -1,0 +1,9 @@
+{
+	"name": "gaurav-adf-demo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d4b42fe0-18ff-4bd0-a690-4fa902c32e06",
+		"tenantId": "3c12412f-9a69-4533-a216-b262ef80d86b"
+	}
+}
